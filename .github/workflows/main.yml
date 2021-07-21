@@ -1,0 +1,2 @@
+name: a workflow for my hello wolrd file
+on: push
