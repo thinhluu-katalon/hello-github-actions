@@ -3,16 +3,16 @@ description: "Greeting"
 author: "thinhluu"
 
 inputs:
-	MY_NAME:
-		description: "Who to greet"
-		require: true
-		default: "world"
+  MY_NAME:
+    description: "Who to greet"
+    require: true
+    default: "world"
 
 runs:
-	using: "docker"
-	image: "Dockerfile"
+  using: "docker"
+  image: "Dockerfile"
 
 branding:
-	icon: "mic"
-	color: "purple"
+  icon: "mic"
+  color: "purple"
 	
